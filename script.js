@@ -7,7 +7,7 @@ class Intro extends Phaser.Scene {
         this.load.audio('voom', 'assets/audio/bine voom.mp3')
     }
     create() {
-        this.add.text(10, 10, "Welcome to the world of THE DEEPER!\nBrought to you by: ");
+        this.add.text(10, 10, "Welcome to the world of THE DEEPER!\nClick to explore!\nBrought to you by: ");
         let imageObject = this.add.image(
             400,//x
             300,//y
