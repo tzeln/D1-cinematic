@@ -144,6 +144,11 @@ class Last extends Phaser.Scene {
             'type',
         )
         this.imageObject2.setScale(.3);
+        this.graphics = this.add.graphics();
+        // add shapes
+        this.graphics.fillStyle(0xff9900, 1); //color, opacity
+        this.graphics.fillTriangle(300, 150, 300, 250, 400, 250); //x1, y1, x2, y2, x3, y3
+        this.graphics.fillTriangle(250, 50, 200, 150, 300, 150); //x1, y1, x2, y2, x3, y3
     }
 }
 
